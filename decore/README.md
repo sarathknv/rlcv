@@ -34,9 +34,12 @@ Note: For FLOPs and Params calculation, I've included all kinds of operations, n
 | DECORE-4        | 89.41             | 43.41M(86.18%) | 2.01M(86.55%)  | -                 | -                 |    
 
 &nbsp;    
-Analysis: Does DECORE find important channels?
+**Analysis: Does DECORE find important channels?**  
 
 
+>To investigate the effect of learned policies on network compression, we reviewed policies of the VGG16 network trained on CIFAR10 for 200 epochs with 4,736 agents (just for convolution and linear layers). We didn’t train the network jointly in this experiment so that the analysis of learned policies is not mixed with network update. After training the agents, we remove the channels with high weight values and observe how much it changes the accuracy. If the model accuracy drops significantly without high weight channels, it suggests that the RL algorithm has correctly identified the most important channels in the net- work.  
+>
+> &mdash; <cite>Section 5 of the paper</cite>
 
 ## Citations
 
