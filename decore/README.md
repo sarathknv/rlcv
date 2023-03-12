@@ -41,6 +41,8 @@ Note: For FLOPs and Params calculation, I've included all kinds of operations, n
 >
 > &mdash; <cite>Section 5 of the paper</cite>
 
+
+ ![investigate_policies.png](plots/investigate_policies.png)  
 ## Citations
 
 ```bibtex
