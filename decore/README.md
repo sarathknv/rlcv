@@ -17,7 +17,7 @@
 ```agents.py```: contains the `Agent` class that handles interaction of agents with the network, and a function for attaching agents.  
 ```models.py```: just VGG16 for now. This is a modified VGG16, please refer to the paper for details.  
 ```training_utils.py```: training and validation functions.  
-```best.pth.tar```: pretained weights of VGG16 trained on CIFAR-10. 
+```best.pth.tar```: pretrained weights of VGG16 trained on CIFAR-10. 91.94% top-1 accuracy.
 
 
 ## Experiments
