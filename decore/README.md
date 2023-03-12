@@ -9,7 +9,7 @@ An unofficial PyTorch implementation of [DECORE](https://openaccess.thecvf.com/c
 * tqdm
 * Matplotlib
 
-Unlike [torch.nn.utils.prune](https://pytorch.org/tutorials/intermediate/pruning_tutorial.html), NNI actually prunes the network.
+Unlike [torch.nn.utils.prune](https://pytorch.org/tutorials/intermediate/pruning_tutorial.html), NNI can actually prune the network.
 
 
 ## Contents
