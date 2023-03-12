@@ -15,7 +15,7 @@ class Agent:
         self.tracker = {}  # To track forward passes through the attached
         # modules. Need this for preserving the agent's state when multiple
         # modules share the same agent.
-        self.handles = {}  # Handles to detach the agents from the modules
+        self.handles = {}  # Handles to detach the agents from the modules.
         self.masks = {}  # Masks for pruning channels.
 
     def attach_module(self, module, module_name):
