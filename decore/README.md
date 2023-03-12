@@ -1,6 +1,6 @@
-# Implementation of DECORE: Deep Compression with Reinforcement Learning
+# DECORE: Deep Compression with Reinforcement Learning
 
-[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Alwani_DECORE_Deep_Compression_With_Reinforcement_Learning_CVPR_2022_paper.pdf) (CVPR 2022)  
+An unofficial PyTorch implementation of [DECORE](https://openaccess.thecvf.com/content/CVPR2022/papers/Alwani_DECORE_Deep_Compression_With_Reinforcement_Learning_CVPR_2022_paper.pdf) (CVPR 2022).  
 
 ## Dependencies  
 * Python3  
@@ -54,5 +54,16 @@ Note: For FLOPs and Params calculation, I've included all kinds of operations, n
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={12349--12359},
   year={2022}
+}
+```
+
+```bibtex
+@software{nni2021,
+   author = {{Microsoft}},
+   month = {1},
+   title = {{Neural Network Intelligence}},
+   url = {https://github.com/microsoft/nni},
+   version = {2.0},
+   year = {2021}
 }
 ```
