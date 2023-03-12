@@ -28,10 +28,10 @@ Note: DECORE-λ is DECORE with penalty λ.
 Note: For FLOPs and Params calculation, I've included all kinds of operations, not just convolution and linear. 
 
 | Model           | Accuracy mine     | FLOPs mine | Params mine| Accuracy paper    | FLOPs paper   |  Params paper |
-|:----------------|:-----------------:|:--------------:|:--------------:|:-----------------:|:-----------------:|:-----------------:|        
-| VGG16           | 91.94             | 314.29M(0.0%)  | 14.99M(0.0%)   | 313.73M(0.0%)     | 14.98M(0.0%)      |  
-| DECORE-50       |                   |                |                |                   |                   |    
-| DECORE-4        | 89.41             | 43.41M(86.18%) | 2.01M(86.55%)  | -                 | -                 |    
+|:----------------|:-----------------:|:--------------:|:--------------:|:---------:|:-------------:|:-------------:|        
+| VGG16           | 91.94             | 314.29M(0.0%)  | 14.99M(0.0%)   | 93.96%    | 313.73M(0.0%) | 14.98M(0.0%)  |  
+| DECORE-50       |                   |                |                |           |               |               |
+| DECORE-4        | 89.41             | 43.41M(86.18%) | 2.01M(86.55%)  | -         | -             |   -           |
 
 &nbsp;    
 **Analysis: Does DECORE find important channels?**  
