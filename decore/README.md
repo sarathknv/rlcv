@@ -9,6 +9,8 @@
 * tqdm
 * Matplotlib
 
+Unlike [torch.nn.utils.prune](https://pytorch.org/tutorials/intermediate/pruning_tutorial.html), NNI actually prunes the network.
+
 
 ## Contents
 
