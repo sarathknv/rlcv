@@ -34,6 +34,7 @@ Note: For FLOPs and Params calculation, I've included all kinds of operations, n
 | VGG16           | 91.94             | 314.29M(0.0%)  | 14.99M(0.0%)   | 93.96%    | 313.73M(0.0%) | 14.98M(0.0%)  |  
 | DECORE-50       | 91.48             | 242.05M(22.98%)| 11.91M(20.55%) | 91.68%    | 36.85M(88.3%) | 0.26M(98.3%)  |
 | DECORE-4        | 89.41             | 43.41M(86.18%) | 2.01M(86.55%)  | -         | -             |   -           |
+| DECORE-1        | 87.47             | 13.22M(95.79%) | 0.64M(95.72%)  | -         | -             |   -           |
 
 &nbsp;    
 **Analysis: Does DECORE find important channels?**  
